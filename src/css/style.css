@@ -1,0 +1,76 @@
+body {
+    background-color: var(--background-color);
+    font-family: kumbh sans;
+    position: relative;
+    overflow: hidden;
+    min-height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+p {
+    color: var(--text-color);
+}
+
+.negrito {
+    font-weight: 700;
+}
+
+
+.cartao {
+    background-color: #ffff;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    border-radius: 3%;
+    padding: 10px;
+
+}
+
+.foto-perfil {
+    margin-top: 10px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.container-nome-idade {
+    margin-top: 5px;
+    display: flex;
+}
+
+.idade {
+
+    margin-left: 5px;
+}
+
+.cidade {
+    margin-top: 20px;
+}
+
+.container-informacoes {
+    width: 100%;
+    height: 90px;
+    border-top: solid 1px hsl(227, 10%, 46%);
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+
+
+
+}
+
+.container-seguidores,
+.container-curtidas,
+.container-fotos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
